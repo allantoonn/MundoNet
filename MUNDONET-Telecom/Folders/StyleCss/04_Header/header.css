@@ -1,0 +1,52 @@
+header{
+    width: 100%;
+    overflow: hidden;
+    background-color: #303440;
+    background-image: url(../../Photos/Banner/500.png);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: center 100px;
+    background-attachment:local;
+    box-shadow: 1px 1px 10px #000;
+}
+
+header .SubTitulo{
+    width: 100%;
+    overflow: hidden;
+
+}
+header .Banner{
+    width: 200px;
+    height: 200px;
+    background-image: url(../../Photos/Logos/Logo.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-color: #303440;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 160px;
+    border-radius: 50%;
+    border: 15px solid #1f2129;
+    object-fit: cover;
+    box-shadow: 1px 1px 10px #0d0e12;
+}
+header h5{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 270px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    color: #4f5669;
+    overflow: hidden;
+}
+
+
+
+
+

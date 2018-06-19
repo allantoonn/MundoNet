@@ -1,0 +1,38 @@
+.Container{
+    width: 1200px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 1200px){
+    .Container{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 900px){
+    .Container{
+        width: 100%;
+    }
+   
+    #Navbar .Menu{
+        background: #FFF;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top:-10px;
+        float: none;
+        flex-wrap: wrap;
+    }
+    #Navbar .Logo img{
+        height: 30px;
+    }
+    #Navbar .Menu li{
+        width: 100%;
+        float: none;
+        display:flex;
+        flex-wrap: wrap;
+        border-radius:0px;
+    }
+    header{
+        margin-top: 80px;
+    }
+    
+}

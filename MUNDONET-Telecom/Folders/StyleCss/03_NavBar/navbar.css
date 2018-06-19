@@ -1,0 +1,95 @@
+/*Propriedade Navbar*/
+#Navbar{
+    z-index: 9999;
+    width: 100%;
+    height: 70px;
+    background: #FFF;
+    box-shadow: 1px 1px 5px #303440;
+    position: fixed;
+    top: 0;
+}
+
+
+
+
+/*Propriedade Logo*/
+#Navbar .Logo{
+    width: 170px;
+    float: left;
+    right: 0px;
+    top: 18px;
+    padding:18px 5px 14px 5px;
+    object-fit: cover;
+}
+#Navbar .Logo img{
+    object-fit: cover;
+}
+
+
+
+
+/*Propriedade Menu*/
+#Navbar .Menu{
+    padding: 26px 0px 26px 0px;
+    text-align: center;
+    float: right;
+    position: relative;
+    margin: 0 auto;
+}
+#Navbar .Menu li{
+    position: relative;
+    left: 0px;
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    background: #FFF;
+    padding: 5px 10px 8px 10px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+#Navbar .Menu li:hover{
+    background: #789aff;
+    transition: 0.5s;
+}
+#Navbar .Menu .Active{
+    background: #789aff;
+}
+#Navbar .Menu .Active a{
+    color: #FFF;
+}
+#NavBar .Menu li:hover a{
+    color: #FFF;
+    transition: 0.5s;
+}
+
+
+.Menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    color: #888;
+}
+
+
+
+
+/*Propriedade Sociais*/
+#Navbar .Sociais{
+     padding: 18px 0px 18px 0px;
+    float: right;
+}
+#NavBar .Sociais li{
+    display: inline;
+    margin: 5px;
+}
+#Navbar .Sociais li img{
+    width: 25px;
+    padding: 1px;
+    border-radius: 50%;
+    border: 3px solid #FFF;
+}
+#Navbar .Sociais li:hover img{
+    border: 3px solid #789aff;
+}
