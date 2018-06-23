@@ -1,0 +1,89 @@
+header{
+    width: 100%;
+    overflow: cover;
+    background-color: #303440;
+    background-image: url(../../Photos/Banner/BannerQuemSomos.png);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: center 100px;
+    background-attachment:local;
+    box-shadow: 1px 1px 10px #000;
+}
+
+header .SubTitulo{
+    width: 100%;
+    overflow: hidden;
+
+}
+header:hover{
+	background-size:1100px;
+	transition: 1s, transform 1s;
+	transition-delay: 0.1s;
+	transition-duration: 1s;
+}/*
+
+header:!hover{
+	transition: 1s;
+} */
+header .Banner{
+    width: 200px;
+    height: 200px;
+	/*Logo abaixo de imediato desnecessario nessa page */
+   /* background-image: url(../../Photos/Logos/Logo.jpg);*/
+    background-size: hidden;
+    background-position: center ;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 160px;
+    object-fit: hidden;
+}
+header h5#t1{
+    
+    margin: 0 auto;
+    margin-top: 210px;
+    margin-bottom: 30px;
+    text-align: left;
+	
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+    color: #4f5669;
+    overflow: hidden;
+padding: 10px;
+}
+header h5#t2{
+	
+	margin: 0 auto;
+	margin-top: -85px;
+	font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+    color: #4f5669;
+    overflow: hidden;
+	position: relative;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+header h5#t3{
+	
+	margin: 0 auto;
+	margin-top:-85px;
+	font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+    color: #4f5669;
+    overflow: hidden;
+	position: relative;
+	margin-bottom: 30px;
+	text-align: right;
+	padding: 10px;
+}
+
+
+
+
+

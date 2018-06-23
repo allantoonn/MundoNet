@@ -1,0 +1,16 @@
+nav#footer{
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px black;
+	margin-bottom: 1px;
+	position: relative;
+	margin-top: 3%;
+}
+
+nav#footer h5{
+	color: white;
+	text-align: center;
+	padding: 3px;
+}

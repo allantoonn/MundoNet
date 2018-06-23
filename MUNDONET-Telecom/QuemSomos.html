@@ -28,13 +28,14 @@
         <link rel="stylesheet" href="Folders/StyleCss/03_NavBar/navbar.css" />
     
         <!-- Header -->
-        <link rel="stylesheet" href="Folders/StyleCss/04_Header/header.css" />
-    
+        <link rel="stylesheet" href="Folders/StyleCss/04_Header/headerQuemSomos.css"/>
         <!-- Section -->
-        <link rel="stylesheet" href="Folders/StyleCss/05_Section/section.css" />
-    
-    <!-- .CSS STYLES -->
-    
+        <link rel="stylesheet" href="Folders/StyleCss/05_Section/sectionQuemsomos.css" />
+    	
+		<!-- footer -->
+		<link rel="stylesheet" href="Folders/StyleCss/06_Footer/footer.css"/>
+     <!-- .CSS STYLES -->
+    	
     
     
     
@@ -47,7 +48,14 @@
         <script src="Folders/ScriptJs/02_NavBar/Navbar.js"></script>
     
     <!-- .JS SCRIPTS -->
-    
+    <style>
+       /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+ 
     
 </head>
     
@@ -100,87 +108,64 @@
     
     
     
+    <!-- SEÇÃO DO CONTEUDO -->
+    <section class="QuemSomosCont">
+          <nav id="conteudo">
+		<hgroup>
+		  <h3> <p>
+			  
+			  A MundoNet é uma empresa criada para clientes interessados em serviços tais como,
+			  manutenções, instalações, formatação e serviços gerais em computadores e redes domesticas.
+			  
+			  </p></h3>
+		  
+		  
+		  </hgroup>
+
+		</nav>
+ 
+    </section>
+	
     <!-- CABEÇALHO-->
     <header>
-      
-        <!-- Banner -->
-        <div class="Banner"></div>
-        
-        <!-- SubTitulo -->
-        <h5>Estamos sempre inovando nossos serviços para oferecer  o melhor a você.</h5>
-        
+		<nav class="blocoMaps">
+		<h2> Onde estamos?</h2>
+			
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMYfuWHaP0wp3iw-LJ4A3cm4Y96kEm2ew&callback=initMap">
+    </script>
+		
+		</nav>
+       
     </header>
     <!-- .CABEÇALHO-->
+  
     
+        
     
-    
-    <!-- SEÇÃO DO CONTEUDO -->
-    <section class="Conteudo Serv">
-        
-         <h5> Veja os nossos serviços </h5>
-        
-      <div class="Blocos">
-        
-            <div class="Bloco">
-            <h5 class="Title">Formatação de Computadores</h5>
-            <a href="#">Saiba Mais</a>
-            <div class="efect"></div>   
-            </div>
-            <div class="Bloco">
-            <h5 class="Title insta">Instalações de Programas</h5>
-            <a href="#">Saiba Mais</a>
-            <div class="efect"></div>   
-            </div>
-                <div class="Bloco">
-            <h5 class="Title">Limpeza de Hardwares</h5>
-            <a href="#">Saiba Mais</a>
-            <div class="efect"></div>   
-            </div>
-            <div class="Bloco">
-            <h5 class="Title">Redes Domésticas</h5>
-            <a href="#">Saiba Mais</a>
-            <div class="efect"></div>   
-            </div>
-        </div>
-        
-        
-    </section>
-        
-        <section class="Conteudo Cont">
-        
-             <div class="Blocos">
-            
-            
-            <div class="Bloco"></div>
-            
-            <div class="Bloco"></div>
-            
-            <div class="Bloco"></div>
-        
-        </div>
-        
-        
-             <div class="Blocos">
-            
-            
-            <div class="Bloco"></div>
-            
-            <div class="Bloco"></div>
-            
-            <div class="Bloco"></div>
-        
-        </div>
-        
-        
-        
-        
-    </section>
-    <!-- SEÇÃO DO CONTEUDO -->
-
-    
-    
-    <footer>
-    </footer>
+   <nav id="footer">
+	<h5>Mundo net &copy;</h5>
+	 <h5>2018</h5>
+	</nav>
     
 </body>    
     

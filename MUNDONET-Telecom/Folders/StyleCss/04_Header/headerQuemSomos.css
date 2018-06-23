@@ -1,0 +1,24 @@
+/* abaixo estilo do header onde se localiza o local (API MAPS)-->
+*/
+header{
+	margin-top:10px;
+	 width: 100%;
+	height: 500px;
+    overflow: hidden;
+    background-color: #303440;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: center 100px;
+    background-attachment:local;
+    box-shadow: 1px 1px 10px #000;
+}
+.blocoMaps h2{
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+}
+.blocoMaps {
+	width: 100%;
+	margin: 0 auto;
+	
+}

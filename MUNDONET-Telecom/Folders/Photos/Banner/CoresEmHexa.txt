@@ -1,0 +1,4 @@
+Cores tema em hexadecimal:
+395d7f
+0478b1
+0ba8b1
