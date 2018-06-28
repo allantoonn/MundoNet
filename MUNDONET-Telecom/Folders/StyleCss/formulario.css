@@ -1,54 +1,6 @@
-/* ESTILO DO CONTEUDO SECTION DA PAGINA SERVIÇOS */
+*{margin: 0; padding:0; }
 
-.servicosCont{
-	 width: 100%;
-	height: 500px;
-    overflow: hidden;
-    background-color: #303440;
-    margin-top: 0px;
-    background-repeat: no-repeat;
-    background-size: 800px;
-    background-position: center 100px;
-    background-attachment:local;
-    box-shadow: 1px 1px 10px #000;
-}
-.conteudo{	
-	margin: 0 auto;
-	margin-top: 5%;
-	width: 100%;
-	height: 800px;
-	background-color: #303440;
-}
-.imgservicos{
-width: 600px;
-	height: 300px;
-	position: absolute;
-	margin-left: 60%;
-	margin-top: 100px;
-	
-}
-.servicosCont h3{
-	font-size: 20px;
-	color: lightgray;
-	
-}
-.servicosCont h1{
-	color: white;
-	list-style-type: none;
-	text-align: center;
-}
-.servicosCont ul{
-	
-	font-family: sans-serif;
-	margin: 0 auto;
-	text-align: justify;
-}
 
-.servicosCont li{
-padding-top: 30px;
-}
-
-/* ESTILO DO FORMULARIO */
 nav#erro{
 	font-family: sans-serif;
 	font-style: normal;
@@ -63,7 +15,9 @@ nav#erro{
 	padding: 5px;
 	margin: 0 auto;
 	position: relative;
+	
 }
+
 nav#ok{
 	font-family: sans-serif;
 	font-style: normal;
@@ -78,6 +32,7 @@ nav#ok{
 	padding: 5px;
 	margin: 0 auto;
 }
+
 nav#formulario{
     height:0px;
     /* background-color: darkgray; */
@@ -85,6 +40,7 @@ nav#formulario{
     font-weight: lighter;
     margin-bottom: -190px;
 }
+
 #formulario{
     width: 500px;
     margin: 50px auto;
@@ -92,6 +48,7 @@ nav#formulario{
     position: relative;
     
 }
+
 #formulario h2, #formulario h3{
     font-size: 22px;
     font-family: sans-serif;
@@ -101,7 +58,10 @@ nav#formulario{
     text-align: left;
     margin-bottom: 4%;
 }
+
 #formulario h3{color: #333; font-size:18px; }
+
+
 #formulario fieldset{
     background: white;
     border: 0 none;
@@ -117,9 +77,12 @@ nav#formulario{
     margin: 0 10%;
     position: absolute;
 }
+
 #formulario fieldset:not(:first-of-type){
 display:none;    
 }
+
+
 #formulario input , #formulario textarea{
     padding: 10px;
     border:1px solid rgba(38,128,191, 0.9);
@@ -134,22 +97,25 @@ display:none;
     color: black;
     margin-bottom: 10px;
 }
+
 #formulario .acao{
     width: 100px;
+    background-color: lightgreen;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     padding: 10px 0;
     float: left;
     margin-right: 5%;
 }
-#formulario .acao:hover{
-    background: #789aff;
-	cursor: pointer;
-}
+
+#formulario .acao:hover{background:darkgreen; cursor: pointer;}
+
 #formulario #progress{
     margin-bottom: 30px;
     overflow: hidden;
     counter-reset: step;
+    
 }
 #formulario #progress li{
     list-style:none;
@@ -160,8 +126,8 @@ display:none;
     float: left;
     width: 33.33%;
     position: relative;
-	text-align: center;
 }
+
 #formulario #progress li:before{
     content: counter(step);
     counter-increment: step;
@@ -175,6 +141,7 @@ display:none;
     margin:0 auto 10px auto; 
     
 }
+
 #formulario #progress li:after{
  content: '';
     width: 100%;
@@ -189,8 +156,17 @@ display:none;
     content: none;
     
 }
+
+
 #formulario #progress li.ativo:before, #formulario #progress li.ativo:after{
-    background: #789aff;
+    background:rgba(40, 208, 141, 0.9);
     color: white;
     text-shadow: 0  1px 0;
 }
+
+
+
+
+
+
+
