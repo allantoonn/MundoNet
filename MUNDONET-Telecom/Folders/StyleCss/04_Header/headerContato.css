@@ -2,7 +2,6 @@ header{
     width: 100%;
     overflow: cover;
     background-color: #303440;
-    background-image: url(../../Photos/Banner/BannerQuemSomos.png);
     background-repeat: no-repeat;
     background-size: 800px;
     background-position: center 100px;
@@ -11,10 +10,7 @@ header{
 	margin-top: 10px;	
 }
 
-header .SubTitulo{
-    width: 100%;
-    overflow: hidden;
-}
+
 header:hover{
 	background-size:900px;
 	transition: 1s, transform 1s;
