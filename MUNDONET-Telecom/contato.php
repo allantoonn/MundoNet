@@ -68,9 +68,12 @@
 		<!-- banner quem somos  -->
     
         <!-- Banner -->
-        <div class="Banner"></div>
+        <div class="Banner">
+		<center><h1> Faça o contato conosco através do
+			formulario abaixo ou utilize nossas redes sociais.</h1></center>
+		</div>
         
-		<center><h1> Aqui colocar ou titulo ou icones de redes sociais!</h1></center>
+		
     </header>
     <!-- .CABEÇALHO-->
   
