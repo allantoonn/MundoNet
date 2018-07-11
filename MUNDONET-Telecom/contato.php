@@ -71,9 +71,11 @@
         <div class="Banner">
 		<center><h1> Faça o contato conosco através do
 			formulario abaixo ou utilize nossas redes sociais.</h1></center>
+			
 		</div>
-        
-		
+        <a href="#" ><img id="soc"  src="Folders/Photos/Sociais/yt.png"></a>
+		<a href="#" ><img id="soc"  src="Folders/Photos/Sociais/fb.png"></a>
+		<a href="#" ><img id="soc"  src="Folders/Photos/Sociais/wt2.png"></a>
     </header>
     <!-- .CABEÇALHO-->
   
