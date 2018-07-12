@@ -48,15 +48,15 @@
 	//Username to use for SMTP authentication
 	$mail->Username = 'mundonetsolicitacao@outlook.com';
 	//Password to use for SMTP authentication
-	$mail->Password = 'senha';
+	$mail->Password = 'tagger@2018';
 	//Set who the message is to be sent from
 	$mail->setFrom('mundonetsolicitacao@outlook.com', 'MundoNet Solicitacao');
 	//Set who the message is to be sent to
-	$mail->addAddress('destinatario@destinatario.com', 'Nome do destinatário');
+	$mail->addAddress('allansieghart1@gmail.com', 'Nome do destinatário');
 	//Set the subject line
 	$mail->Subject = $assunto;
 	//Read an HTML message body from an external file, convert referenced images to embedded
-	$mail->msgHTML("Nome: " . $nome . "<br>Telefone: " . $telefone . "<br>Recados: " . $telefone2 . "<br><br>Descricao do problema: " . $mensagem);
+	$mail->msgHTML("Nome: " . $nome . "<br>Telefone: " . $telefone . "<br>Email:" . $email . "<br>Recados: " . $telefone2 . "<br><br>Descricao do problema: " . $mensagem);
 	//Set reply mail to customer mail
 	$mail->addReplyTo($email, $nome);
 
