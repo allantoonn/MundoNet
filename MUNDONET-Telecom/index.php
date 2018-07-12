@@ -58,52 +58,9 @@
     
 <body>
 
-      
-    <!-- NAVBAR -->
-    <nav id="Navbar">
-
-        <!-- Container Responsivo -->
-        <div class="Container">
-         
-          
-            <!-- Logo -->
-            <div class="Logo">
-                <img src="Folders/Photos/Logos/Logo01.png" width="170px;">
-            </div>
-            <!-- .Logo -->   
-         
-         <!-- Menu Redes Sociais-->
-         <div class="Sociais">
-             
-            <li><a href="#" ><img src="Folders/Photos/Sociais/facebook.png"></a></li>
-             
-            <li><a href="#"><img src="Folders/Photos/Sociais/instagram.png"></a></li>
-              
-            <li><a href="#"><img src="Folders/Photos/Sociais/user.png"></a></li>
-             
-        </div>
-         <!-- .Menu Redes Sociais-->
-        
-            
-        <!-- Menu -->
-        <div class="Menu">
-                
-            <li><a href="index.html" class="hvr-pulse" >Home</a></li>
-            <li><a href="servicos.html" class="hvr-pulse"  >Serviços</a></li>
-            <li><a href="contato.html" class="hvr-pulse" >Contatos</a></li>
-            <li><a href="QuemSomos.html" class="hvr-pulse"  >Quem Somos ?</a></li>
-                
-        </div>
-        <!-- .Menu -->
-         
-   
-        </div>
-        <!-- .Container Responsivo -->
-        
-    </nav>
-    <!-- .NAVBAR -->
-    
-    
+    <?php
+		include("navbar.php");
+	?>
     
     <!-- CABEÇALHO-->
     <header>
@@ -185,8 +142,8 @@
     
     
     <nav id="footer">
-	<h5>Mundo net &copy;</h5>
-	 <h5>2018</h5>
+		<h5>Mundo net &copy;</h5>
+		<h5>2018</h5>
 	</nav>
     
 </body>    
